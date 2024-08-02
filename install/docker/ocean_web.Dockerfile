@@ -1,4 +1,4 @@
-FROM python:3.8.8
+FROM python:3.13.0b4
 COPY requirements.txt /tmp/
 COPY ./install/docker/wait-for-it.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/wait-for-it.sh
